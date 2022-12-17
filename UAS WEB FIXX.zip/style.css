@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+.Container {
+width: 90%;
+margin-inline: auto;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/back\ head.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Navigation {
+    width: 100%;
+    padding: 20px 0 10px 0;
+    
+}
+
+
+.Navigation .Box-Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navigation .Box-Navigation .box:nth-child(1) h1 {
+    font-size: 20px;
+    color: rgb(9, 11, 13);
+    font-style: italic;
+}
+
+.Navigation .Box-Navigation .box:nth-child(2) ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Navigation .Box-Navigation .box:nth-child(2) ul li {
+list-style-type: none;
+margin-left: 40px;
+}
+
+.Navigation .Box-Navigation .box:nth-child(2) ul li a {
+    text-decoration: none;
+    color: rgba(249, 251, 252, 0.823);
+    transition: all 0.3s ease;
+    font-size: 30px;
+    
+}
+
+li a :hover{
+    color: #818ea0;
+}
+
+.Navigation .Box-Navigation .box:nth-child(2) ul li a :hover {
+    color: greyss;
+}
+
+/* hero style */
+header .hero{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+header .hero h1{
+    color: rgba(250, 235, 215, 0.703);
+    font-size: 50px;
+    text-align: center;
+}
+
+/* About Style*/
+.About{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.689);
+    display: flex;
+    align-items: center;
+}
+
+.About .box-About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.About .box:nth-child(1) {
+    padding-right: 25px;
+}
+
+.About .box:nth-child(1) h1{
+    font-size: 45px;
+}
+
+.About .box:nth-child(1) p{
+    line-height: 2;
+}
+
+.About .box:nth-child(2) img{
+    border-radius: 10px;
+}
+
+
+/* Our Campign */
+.OurCampign{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/joshua-davis-VWGLJh8DMhQ-unsplash.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.OurCampign img {
+    width: 50%;
+    height: 70%;
+    padding-right: 10%;
+    border-radius: 10px;
+}
+
+.OurCampign h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.OurCampign p {
+    text-align: justify;
+    color: #fff;
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 25px;
+}
+
+.OurCampign-2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/joshua-davis-VWGLJh8DMhQ-unsplash.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.OurCampign-2 h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.OurCampign-2 img {
+    width: 50%;
+    height: 70%;
+    padding-right: 10%;
+    border-radius: 10px;
+}
+
+
+.OurCampign-2 p {
+    text-align: justify;
+    color: #fff;
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 25px;
+}
+
+.OurCampign-3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/joshua-davis-VWGLJh8DMhQ-unsplash.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.OurCampign-3 h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.OurCampign-3 img {
+    width: 50%;
+    height: 70%;
+    padding-right: 10%;
+    border-radius: 10px;
+}
+
+
+.OurCampign-3 p {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 25px;
+    color: ivory;
+}
+
+#more {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: rgba(128, 128, 128, 0.791);
+}
+
+#more h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#more p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#more p span {
+    color: #ffbd27;
+}
+
+#more .form {
+    display: flex;
+    width: 40%;
+}
+
+#more input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#more button {
+    background-color: #ffbd27;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.des2 {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;    
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;   
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .col-install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .fa-facebook {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .fa-instagram {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .fa-twitter {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .fa-youtube {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .fa-pinterest-p {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 15px 0;
+}
+
+footer .fa-facebook :hover {
+    color: #088178;
+}
+
+footer .fa-instagram :hover {
+    color: #088178;
+}
+
+footer .fa-twitter :hover {
+    color: #088178;
+}
+
+footer .fa-youtube :hover {
+    color: #088178;
+}
+
+footer .fa-pinterest-p :hover,
+footer .a :hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+div .des2 {
+    color: #fff;
+    font-family: 'spartan', sans-serif;
+    text-align: center;
+    font-size: 800;
+}
